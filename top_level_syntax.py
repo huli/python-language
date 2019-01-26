@@ -1,7 +1,7 @@
 
 # Key point:
 # For every top-level function or top-level syntax 
-# there is a corresponding __ function:
+# there is a corresponding __ function
 #   x + y     ->    __add__
 #   init x    ->    __init__
 #   repr(x)   ->    __repr__  
@@ -32,7 +32,7 @@ class Polynomial:
         pass # Yeah, maybe you should do that on this point
 
 
-p1 = Polynomial(2, 3, 4)
+p1 = Polynomial(2, 3, 4) # => 
 p2 = Polynomial(3, 4, 5)
 
 print(p1 + p2) # => 9x^2 + 7x^1 + 5x^0
